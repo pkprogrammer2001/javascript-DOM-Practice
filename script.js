@@ -5,3 +5,6 @@ quer.addEventListener("click",()=>{
   quer.style.color="red";
 })
 quer.innerHTML=13;
+
+//change the css through js
+quer.style.background="grey";
