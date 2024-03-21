@@ -8,3 +8,9 @@ quer.innerHTML=13;
 
 //change the css through js
 quer.style.background="grey";
+
+// event listener
+let btn = document.querySelector("button");
+btn.addEventListener("click", function(){
+  btn.style.backgroundColor= "grey";
+})

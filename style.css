@@ -1,0 +1,10 @@
+#btn{
+  font-size: 30px;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  border: none;
+  background-color:maroon;
+  color: antiquewhite;
+  cursor: pointer;
+  border-radius: 20px;
+}
