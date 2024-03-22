@@ -3,6 +3,10 @@ console.log(window.document)  //html file console py dekhna k liya
 console.dir(window.document);  //html element jo javascript k through use kr k change kr skta hain
 console.dir(document); // dono same way hai likhna k
 
+// getElementById
+const heading = document.getElementById("heading");
+console.log(heading);
+console.log(typeof heading); // checking typeof 
 
 //query selector and change the html through query selector
 
