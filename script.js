@@ -1,3 +1,9 @@
+//dom document object model
+console.log(window.document)  //html file console py dekhna k liya
+console.dir(window.document);  //html element jo javascript k through use kr k change kr skta hain
+console.dir(document); // dono same way hai likhna k
+
+
 //query selector and change the html through query selector
 
 let quer = document.querySelector("h1");
