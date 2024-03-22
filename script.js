@@ -45,3 +45,9 @@ let btn = document.querySelector("button");
 btn.addEventListener("click", function(){
   btn.style.backgroundColor= "grey";
 })
+
+const head3 = document.getElementsByClassName("h2"); // class name return htmlCollection
+console.log(head3[0].innerHTML="i'm front end engineer");
+
+const head4 = document.querySelectorAll(".h2"); // query selector return nodelist
+console.log(head4[3])
