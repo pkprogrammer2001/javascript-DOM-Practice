@@ -29,6 +29,16 @@ console.log(text2.innerText) // innerText sy sirf woh content get hota jo webpag
 //change the css through js
 quer.style.background="grey";
 
+// get attribute
+const get1 = document.querySelector(".todo #todo-text")
+console.log(get1.getAttribute("type"));
+get1.setAttribute("type", "number");
+
+const get2 = document.querySelector(".todo .a-tag")
+get2.setAttribute("href","http://github.com/pkprogrammer2001")
+console.log(get2.getAttribute("href"));
+
+
 // event listener
 let btn = document.querySelector("button");
 btn.addEventListener("click", function(){
