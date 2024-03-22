@@ -9,12 +9,16 @@ console.log(heading);
 console.log(typeof heading); // checking typeof 
 
 //query selector and change the html through query selector
-
+// query selector kis bi element k liya use ho skti hai
 let quer = document.querySelector("h1");
 quer.addEventListener("click",()=>{
   quer.style.color="red";
 })
 quer.innerHTML=13;
+
+//query selector all
+const head2 = document.querySelectorAll(".h2");
+console.log(head2);
 
 //change the css through js
 quer.style.background="grey";
