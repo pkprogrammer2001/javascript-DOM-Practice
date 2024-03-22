@@ -20,6 +20,12 @@ quer.innerHTML=13;
 const head2 = document.querySelectorAll(".h2");
 console.log(head2);
 
+//textContent
+const text1 = document.getElementById("text1")
+console.log(text1.textContent) // text content sy pura content get hota hai jo element ma hai even jo content display none yn hide bi hoga webpage ma
+// innerText
+const text2 = document.getElementById("text2")
+console.log(text2.innerText) // innerText sy sirf woh content get hota jo webpage py display hota hai.... 
 //change the css through js
 quer.style.background="grey";
 
