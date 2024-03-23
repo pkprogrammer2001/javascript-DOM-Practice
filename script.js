@@ -48,7 +48,7 @@ btn.addEventListener("click", function(){
 
 // class name
 const head3 = document.getElementsByClassName("h2"); // class name return htmlCollection
-console.log(head3[0].innerHTML="i'm front end engineer");
+console.log(head3[0]);
 for(let i=0; i< head3.length; i++){
   // console.log(head3[i]);
   const newhead = head3[i];
