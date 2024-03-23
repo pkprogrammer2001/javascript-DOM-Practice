@@ -46,8 +46,19 @@ btn.addEventListener("click", function(){
   btn.style.backgroundColor= "grey";
 })
 
+// class name
 const head3 = document.getElementsByClassName("h2"); // class name return htmlCollection
 console.log(head3[0].innerHTML="i'm front end engineer");
-
-const head4 = document.querySelectorAll(".h2"); // query selector return nodelist
+for(let i=0; i< head3.length; i++){
+  // console.log(head3[i]);
+  const newhead = head3[i];
+  newhead.style.backgroundColor="black";
+  newhead.style.color="white";
+};
+//query selector
+const head4 = document.querySelectorAll(".h3");  // query selector return nodelist
 console.log(head4[3])
+head4.forEach(function(val){
+  val.style.backgroundColor= "maroon";
+  val.style.color= "white";
+})
